@@ -1,0 +1,256 @@
+.header {
+    padding-top: 3.12rem;
+    margin-bottom: 3.75rem;
+}
+.navbar ul {
+    list-style: none;
+}
+.dropdown-menu {
+    border-radius: 0;
+    margin: 15px 0 0;
+    border: 1px solid #eee;
+}
+.main-link {
+    display: inline-block;
+}
+.logo-company__top {
+    color: #e24545;
+    font-weight: 700;
+    font-size: 26px;
+    position: relative;
+    padding-left: 2px;
+    margin-bottom: 5px;
+}
+
+.logo-company__top::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 10px;
+    height: 2px;
+    background-color: #e24545;
+}
+
+.logo-company__bottom {
+    font-size: 12px;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 9px;
+    font-weight: 700;
+    padding-left: 2px;
+}
+
+.logo-company__top i {
+    font-style: normal;
+    
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.nav-link {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    color: #444;
+    transition: color .3s;
+    padding: 0;
+    position: relative;
+}
+.nav-link .icon-search {
+    font-size: 15px;
+}
+
+.nav-link::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -7px;
+    opacity: 0;
+    left: 0;
+    z-index: 1;
+    width: 10px;
+    height: 2px;
+    background-color: #e24545;
+    transition: opacity .3s;
+}
+.dropdown.show .nav-link,
+.active .nav-link,
+.nav-link:hover {
+    color: #e24545;
+}
+
+.active .nav-link {
+    pointer-events: none;
+}
+.dropdown.show .nav-link::before,
+.active .nav-link::before,
+.nav-link:hover::before {
+    opacity: 1;
+}
+
+.search-link::before {
+    display: none;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-item .icon-angle-down {
+    margin-left: 8px;
+}
+.nav-item.show  .icon-angle-down {
+    transform: rotate(180deg);
+}
+.navbar-collapse {
+    margin: 0;
+}
+
+.basket-holder {
+    border: 2px solid #444;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px 10px 10px;
+    position: relative;
+    margin-right: 10px;
+}
+.basket-holder .icon-SHOPPING-BAG {
+    font-size: 21px;
+    margin-right: 8px;
+    color: #e24545;
+}
+.total-count {
+    position: absolute;
+    top: 50%;
+    right: -16px;
+    transform: translateY(-50%);
+    border: 5px solid #fff;
+    border-radius: 50%;
+    background-color: rgb(34, 34, 34);
+    width: 32px;
+    height: 32px;
+    z-index: 1;
+    font-size: 11px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total-price {
+    font-size: 15px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar-toggler {
+    height: 30px;
+    outline: none!important;
+}
+.collapsed .burger::after,
+.collapsed .burger:before,
+.collapsed .burger {
+    background-color: #444;
+}
+.burger {
+    background-color: #e24545;
+    position: relative;
+    width: 25px;
+    height: 3px;
+    display: block;
+}
+.burger::after,
+.burger:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    z-index: 2;
+    background-color: #e24545;
+}
+.burger:before {
+    top: -7px;
+}
+.burger::after{
+    bottom: -7px;
+}
+.dropdown-link {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    color: #444;
+    padding: .25rem 1.5rem;
+    display: block;
+}
+.dropdown-item {
+    padding: 0;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: transparent;
+}
+@media only screen and (max-width: 991px) {
+    .navbar-collapse {
+        flex-basis: auto;
+        margin: 0;
+        padding: 10px 0;
+        position: absolute;
+        top: calc(100% + 10px);
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        border: 1px solid #eee;
+        z-index: 10;
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+        transition: transform .3s, opacity .3s, visibility .3s ;
+    } 
+    .collapse:not(.show) {
+        display: block;
+        transform: translateY(-20px);
+        opacity: 0;
+        visibility: hidden;
+        transition: transform .3s, opacity .3s, visibility .3s ;
+    }
+    .logo-holder {
+        flex: 1 0;
+    }
+    .navbar {
+        flex: 1 1 100%;
+        order: 1;
+        background-color: #fff;
+        padding: 0;
+    }
+
+    .nav-item {
+        margin-bottom: 10px;
+        text-align: center;
+    }    
+    .nav-link::before {
+        display: none;
+    }
+    .nav-link {
+        display: inline-block;
+    }  
+    .dropdown {
+        text-align: center;
+    }
+    .header {
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    .dropdown-menu{
+         left: 50%;
+         transform: translateX(-50%);
+         margin: 10px 0 0;
+    }
+}

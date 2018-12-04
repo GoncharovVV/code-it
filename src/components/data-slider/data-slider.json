@@ -1,0 +1,10 @@
+[
+    {"title": "Full warrenty", "description":"Read About Our Warrenty", "icon":"icon-thumbs-up", "id":"slide1"},
+    {"title": "express shipping", "description":"Local & International Shipping", "icon":"icon-truck", "id":"slide2"},
+    {"title": "mobile blog", "description":"Discuss Your Favourite Phone", "icon":"icon-commenting", "id":"slide3"},
+    {"title": "24/7 Support", "description":"Get Full Support via Chat", "icon":"icon-headphones", "id":"slide4"},
+    {"title": "Full warrenty", "description":"Read About Our Warrenty", "icon":"icon-thumbs-up", "id":"slide5"},
+    {"title": "express shipping", "description":"Local & International Shipping", "icon":"icon-truck", "id":"slide6"},
+    {"title": "mobile blog", "description":"Discuss Your Favourite Phone", "icon":"icon-commenting", "id":"slide7"},
+    {"title": "24/7 Support", "description":"Get Full Support via Chat", "icon":"icon-headphones", "id":"slide7"}
+]

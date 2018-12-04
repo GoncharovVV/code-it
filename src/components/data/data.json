@@ -1,0 +1,19 @@
+[
+    {"title": "Huawei Mate S", "price":"$280.00", "src":"/images/products/product1.jpg", "oldPrice":"$380.00", "id":"prod1"},
+    {"title": "SONY XPERIA Z5", "price":"$280.00", "src":"/images/products/product2.jpg", "oldPrice":"$380.00", "id":"prod2"},
+    {"title": "Xiaomi Mi 4i", "price":"$280.00", "src":"/images/products/product3.jpg", "id":"prod3"},
+    {"title": "HUAWEI G8 4G", "price":"$280.00", "src":"/images/products/product4.jpg", "id":"prod4"},
+    {"title": "iPhone Rose Gold", "price":"$280.00", "src":"/images/products/product5.jpg", "id":"prod5"},
+    {"title": "Galaxy Core Prime ", "price":"$280.00", "src":"/images/products/product6.jpg", "id":"prod6"},
+    {"title": "Huawei Mate S", "price":"$280.00", "src":"/images/products/product7.jpg", "id":"prod7"},
+    {"title": "SONY XPERIA Z5", "price":"$280.00", "src":"/images/products/product5.jpg", "id":"prod8"},
+    {"title": "Apple iPhone 6S", "price":"$280.00", "src":"/images/products/product2.jpg", "id":"prod9"},
+    {"title": "Xiaomi Mi 4i", "price":"$280.00", "src":"/images/products/product3.jpg", "id":"prod10"},
+    {"title": "Galaxy Core Prime ", "price":"$280.00", "src":"/images/products/product1.jpg", "id":"prod11"},
+    {"title": "HUAWEI G8 4G", "price":"$280.00", "src":"/images/products/product6.jpg", "id":"prod12"},
+    {"title": "iPhone Rose Gold", "price":"$280.00", "src":"/images/products/product4.jpg", "id":"prod13"},
+    {"title": "Huawei Mate S", "price":"$280.00", "src":"/images/products/product3.jpg", "id":"prod14"},
+    {"title": "SONY XPERIA Z5", "price":"$280.00", "src":"/images/products/product1.jpg", "id":"prod15"},
+    {"title": "HUAWEI G8 4G", "price":"$280.00", "src":"/images/products/product7.jpg", "id":"prod16"},
+    {"title": "Huawei Mate S", "price":"$280.00", "src":"/images/products/product5.jpg", "id":"prod17"}
+]
