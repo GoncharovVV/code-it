@@ -8,8 +8,8 @@ import './header-component.css'
 const LogoBlock = () => {
     return (
         <div className="logo-holder  my-0">
-            <a href="https://codeit.us" className="main-link">
-                <div className="logo-company__top">Code<i>IT</i></div>
+            <a href="" className="main-link">
+                <div className="logo-company__top"></div>
                 <span className="logo-company__bottom">store</span>
             </a>
         </div>
